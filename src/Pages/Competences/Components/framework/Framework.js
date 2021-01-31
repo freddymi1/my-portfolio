@@ -46,11 +46,7 @@ export default function Framework (){
                     </div>
                 </div>
             </div>
-            {/* <div className='w-100 rounded-b-xl -mt-8'>
-                <a className='font-semibold pt-2 pr-2 float-right text-right text-sm  text-gray-100'>
-                    Plus de details
-                </a>
-            </div> */}
+            
         </div>
     )
 }

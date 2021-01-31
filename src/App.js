@@ -5,6 +5,7 @@ import Sidebar from './Pages/Sidebar/Sidebar';
 import Dashboard from './Pages/Dashboard/Dashboard'
 import Competences from './Pages/Competences/Competences';
 import Experience from './Pages/Experience/Experience';
+import Other from './Pages/Other/Other';
 function App() {
   const [darkMode, setDarkMode] = useState(getInitMode());
 
@@ -54,6 +55,7 @@ function App() {
             <Route exact path='/' component={Dashboard}/>
             <Route exact path='/competences' component={Competences}/>
             <Route exact path='/experience' component={Experience}/>
+            <Route exact path='/other' component={Other}/>
           </div>
           
         </div>

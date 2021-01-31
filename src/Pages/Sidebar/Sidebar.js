@@ -58,8 +58,8 @@ export default function Sidebar(){
                             <Link to='/experience'/>
                         </MenuItem>
                         <MenuItem icon={<GiSkills />} className="font-bold uppercase">
-                            autress
-                            <Link to='/competences'/>
+                            autres
+                            <Link to='/other'/>
                         </MenuItem>
                     </Menu>
                 </SidebarContent>

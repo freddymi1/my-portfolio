@@ -1,6 +1,7 @@
 import React, {useState, useRef} from 'react';
 import CmsComp from './Components/CmsComp';
 import Chevron from './Chevron/Chevron';
+import {ImWordpress} from 'react-icons/im';
 import './Styles/Accordion.css';
 export default function Cms (){
     const [active, setActive] = useState("")
@@ -25,6 +26,7 @@ export default function Cms (){
                         >
                             <div className="accordion_title text-center">
                                 <div className="text-center font-bold bg-gray-900 uppercase text-md text-gray-100">
+                                    <ImWordpress size="1.5em" className="inline mr-2 text-gray-50" />
                                     cms
                                 </div>
                             </div>

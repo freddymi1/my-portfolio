@@ -1,5 +1,6 @@
 import React from 'react';
 import ProgressBar from 'react-animated-progress-bar'
+import {BiGlobeAlt} from 'react-icons/bi';
 export default function Langue (){
     return(
         <div className="block w-full">
@@ -7,14 +8,15 @@ export default function Langue (){
                 
                 <div className=" flex-grow p-4">
                     <div className="font-bold uppercase pb-4 border-b-2 border-gray-50 text-md text-gray-100">
-                        Connaissance Languistique
+                        <BiGlobeAlt size="1.5em" className="inline mr-2 text-gray-50" />
+                        Connaissance Linguistique
                     </div>
                     <div className="font-normal pt-2 text-sm text-left text-gray-100">
                         <div>
                             <label className="text-lg font-bold text-gray-200">Malagasy:</label>
                             <ProgressBar
                                 width="100%"
-                                height="15px"
+                                height="10px"
                                 rect
                                 fontColor="white"
                                 percentage="90"
@@ -30,7 +32,7 @@ export default function Langue (){
                             <ProgressBar
                                 paddingTop="-20px"
                                 width="100%"
-                                height="15px"
+                                height="10px"
                                 rect
                                 fontColor="white"
                                 percentage="65"
@@ -42,12 +44,12 @@ export default function Langue (){
                             />
                         </div>
                         <div className="space-y-0">
-                            <label className="text-lg pb-12 font-bold text-gray-200">
+                            <label className="text-lg font-bold text-gray-200">
                                 Francais:
                             </label>
                             <ProgressBar
                                 width="100%"
-                                height="15px"
+                                height="10px"
                                 rect
                                 fontColor="white"
                                 percentage="80"
